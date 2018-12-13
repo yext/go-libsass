@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/yext/go-libsass/libs"
 )
 
 func TestFunc_simpletypes(t *testing.T) {

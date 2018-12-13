@@ -1,0 +1,46 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
+
+go_library(
+    name = "go_default_library",
+    srcs = [
+        "docs.go",
+        "encoding.go",
+        "export.go",
+        "func.go",
+        "header.go",
+        "helpers.go",
+        "importer.go",
+        "safemap.go",
+        "sass_number.go",
+        "toscss.go",
+        "wrap.go",
+        "wrap_main.go",
+    ],
+    cdeps = [
+        "//libsass-build",
+    ],
+    cgo = True,
+    clinkopts = [
+        "-lstdc++ -lm",
+    ] + select({
+        "@io_bazel_rules_go//go/platform:darwin": [
+            "-ldl",
+        ],
+        "@io_bazel_rules_go//go/platform:linux": [
+            "-ldl",
+        ],
+        "//conditions:default": [],
+    }),
+    # keep
+    copts = [
+        "-g -O2 -fPIC",
+    ],
+    importpath = "github.com/yext/go-libsass/libs",
+    visibility = ["//visibility:public"],
+)
+
+go_test(
+    name = "go_default_test",
+    srcs = ["sass_number_test.go"],
+    embed = [":go_default_library"],
+)

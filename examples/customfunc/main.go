@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/wellington/go-libsass"
+	"github.com/yext/go-libsass"
 )
 
 // cryptotext is of type libsass.SassFunc. As libsass compiles the

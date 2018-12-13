@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/yext/go-libsass/libs"
 )
 
 var ghMu sync.RWMutex

@@ -1,6 +1,8 @@
 libsass
 =========
 
+**This is a fork of [github.com/wellington/go-libsass] that adds Bazel support, without breaking the Go tool.**
+
 [![Circle CI](https://circleci.com/gh/wellington/go-libsass.svg?style=svg)](https://circleci.com/gh/wellington/go-libsass) [![Build status](https://ci.appveyor.com/api/projects/status/uhl4swbb2r7lcfpc/branch/master?svg=true)](https://ci.appveyor.com/project/drewwells/go-libsass/branch/master)
 
 The only Sass compliant Go library! go-libsass is a wrapper to the [sass/libsass](http://github.com/sass/libsass) project.

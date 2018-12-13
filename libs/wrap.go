@@ -286,7 +286,7 @@ func SassOptionSetPrecision(goopts SassOptions, i int) {
 	C.sass_option_set_precision(goopts, C.int(i))
 }
 
-// SassOptionSetOutputStyle sets the output format of CSS see: http://godoc.org/github.com/wellington/go-libsass#pkg-constants
+// SassOptionSetOutputStyle sets the output format of CSS see: http://godoc.org/github.com/yext/go-libsass#pkg-constants
 func SassOptionSetOutputStyle(goopts SassOptions, i int) {
 	C.sass_option_set_output_style(goopts, uint32(i))
 }

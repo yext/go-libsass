@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/yext/go-libsass/libs"
 )
 
 var globalHeaders []string

@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	libsass "github.com/wellington/go-libsass"
+	libsass "github.com/yext/go-libsass"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/yext/go-libsass/libs"
 )
 
 func TestContextFile(t *testing.T) {

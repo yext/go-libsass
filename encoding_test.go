@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/yext/go-libsass/libs"
 )
 
 type unsupportedStruct struct {

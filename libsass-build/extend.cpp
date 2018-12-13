@@ -1851,7 +1851,7 @@ namespace Sass {
     // Ruby Equivalent: flatten
     Node flattened(flatten(trimmed, 1));
 
-    DEBUG_PRINTLN(EXTEND_COMPLEX, ">>>>> EXTENDED: " << extendedSelectors)
+    //DEBUG_PRINTLN(EXTEND_COMPLEX, ">>>>> EXTENDED: " << extendedSelectors)
     DEBUG_PRINTLN(EXTEND_COMPLEX, "EXTEND COMPLEX END: " << complexSelector)
 
     // memory results in a map table - since extending is very expensive

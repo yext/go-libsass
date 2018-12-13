@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/yext/go-libsass/libs"
 )
 
 var (

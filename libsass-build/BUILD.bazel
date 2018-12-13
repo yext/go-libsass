@@ -1,0 +1,16 @@
+cc_library(
+    name = "libsass-build",
+    srcs = glob(["**/*.c*"]),
+    hdrs = glob(
+        ["**/*.h*"],
+        exclude = ["include/**"],
+    ),
+    visibility = ["//visibility:public"],
+    deps = [":includes"],
+)
+
+cc_library(
+    name = "includes",
+    hdrs = glob(["include/**/*.h*"]),
+    strip_include_prefix = "include",
+)
