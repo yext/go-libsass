@@ -1,5 +1,13 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 
+# NOTE: This is structured as a single go_library target intentionally.
+# Breaking the C/C++ code into separate targets causes downstream issues because
+# cc_library sources are excluded from `go_path` rule output.
+# See https://github.com/bazelbuild/rules_go/issues/1872
+#
+# This will no longer be necessary once the go/packages API supports Bazel workspaces.
+# At that time, code generation tools will not need to use `go_path`.
+
 # keep
 go_library(
     name = "go_default_library",
@@ -17,17 +25,15 @@ go_library(
         "wrap.go",
         "wrap_main.go",
     ] + glob([
-        "*.c*",
-        "*.h*",
+        "**/*.c",
+        "**/*.cpp",
+        "**/*.h",
+        "**/*.hpp",
     ]),
-    cdeps = [
-        "//libsass-build",
-    ],
     cgo = True,
-    clinkopts = ["-lstdc++ -lm -ldl -DUSE_LIBSASS"],
-    copts = ["-g -O2 -fPIC -DUSE_LIBSASS"],
-    cppopts = ["-DUSE_LIBSASS"],
-    cxxopts = ["-DUSE_LIBSASS"],
+    clinkopts = ["-lstdc++ -lm -ldl"],
+    copts = ["-g -O2 -fPIC -Ilibs/include"],
+    cppopts = ["-Ilibs/include"],
     importpath = "github.com/yext/go-libsass/libs",
     visibility = ["//visibility:public"],
 )
