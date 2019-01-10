@@ -5,7 +5,7 @@
 #include "eval.hpp"
 #include "values.hpp"
 #include "operators.hpp"
-#include "sass/values.h"
+#include "values.h"
 #include "sass_values.hpp"
 
 extern "C" {

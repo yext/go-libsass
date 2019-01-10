@@ -10,7 +10,7 @@
 #include <iostream>
 #include <typeinfo>
 #include <algorithm>
-#include "sass/base.h"
+#include "base.h"
 #include "ast_fwd_decl.hpp"
 
 #ifdef DEBUG_SHARED_PTR

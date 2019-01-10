@@ -6,7 +6,7 @@
 #include "util.hpp"
 #include "prelexer.hpp"
 #include "color_maps.hpp"
-#include "sass/functions.h"
+#include "functions.h"
 #include "error_handling.hpp"
 
 // Notes about delayed: some ast nodes can have delayed evaluation so

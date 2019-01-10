@@ -12,7 +12,7 @@
 #include "expand.hpp"
 #include "operators.hpp"
 #include "utf8_string.hpp"
-#include "sass/base.h"
+#include "base.h"
 #include "utf8.h"
 
 #include <cstdint>

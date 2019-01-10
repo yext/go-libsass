@@ -1,6 +1,6 @@
 package libs
 
-// #include "sass/context.h"
+// #include "context.h"
 //
 import "C"
 import (

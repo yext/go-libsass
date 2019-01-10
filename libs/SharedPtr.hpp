@@ -1,7 +1,7 @@
 #ifndef SASS_MEMORY_SHARED_PTR_H
 #define SASS_MEMORY_SHARED_PTR_H
 
-#include "sass/base.h"
+#include "base.h"
 
 #include <vector>
 

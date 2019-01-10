@@ -3,7 +3,7 @@
 #include "util.hpp"
 #include "context.hpp"
 #include "values.hpp"
-#include "sass/functions.h"
+#include "functions.h"
 #include "sass_functions.hpp"
 
 extern "C" {

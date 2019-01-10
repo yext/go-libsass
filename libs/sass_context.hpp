@@ -1,8 +1,8 @@
 #ifndef SASS_SASS_CONTEXT_H
 #define SASS_SASS_CONTEXT_H
 
-#include "sass/base.h"
-#include "sass/context.h"
+#include "base.h"
+#include "context.h"
 #include "ast_fwd_decl.hpp"
 
 // sass config options structure

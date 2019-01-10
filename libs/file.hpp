@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-#include "sass/context.h"
+#include "context.h"
 #include "ast_fwd_decl.hpp"
 
 namespace Sass {

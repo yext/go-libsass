@@ -10,8 +10,8 @@
 #include <algorithm>
 #include <unordered_map>
 #include <unordered_set>
-#include "memory/SharedPtr.hpp"
-#include "sass/functions.h"
+#include "SharedPtr.hpp"
+#include "functions.h"
 
 /////////////////////////////////////////////
 // Forward declarations for the AST visitors.

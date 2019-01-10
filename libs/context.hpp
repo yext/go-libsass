@@ -6,7 +6,7 @@
 #include <map>
 
 #define BUFFERSIZE 255
-#include "b64/encode.h"
+#include "encode.h"
 
 #include "ast_fwd_decl.hpp"
 #include "kwd_arg_macros.hpp"

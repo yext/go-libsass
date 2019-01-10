@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include "utf8_string.hpp"
-#include "sass/functions.h"
+#include "functions.h"
 
 #ifdef _WIN32
 

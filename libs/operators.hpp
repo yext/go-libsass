@@ -2,7 +2,7 @@
 #define SASS_OPERATORS_H
 
 #include "values.hpp"
-#include "sass/values.h"
+#include "values.h"
 
 namespace Sass {
 

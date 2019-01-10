@@ -5,7 +5,7 @@
 #include <string>
 #include <assert.h>
 #include "sass.hpp"
-#include "sass/base.h"
+#include "base.h"
 #include "ast_fwd_decl.hpp"
 
 #define SASS_ASSERT(cond, msg) assert(cond && msg)

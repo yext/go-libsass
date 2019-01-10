@@ -3,7 +3,7 @@
 
 #include <string>
 #include "sass.hpp"
-#include "sass/base.h"
+#include "base.h"
 #include "source_map.hpp"
 #include "ast_fwd_decl.hpp"
 

@@ -7,7 +7,7 @@
 #include "position.hpp"
 #include "backtrace.hpp"
 #include "ast_fwd_decl.hpp"
-#include "sass/functions.h"
+#include "functions.h"
 
 namespace Sass {
 

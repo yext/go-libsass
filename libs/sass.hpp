@@ -43,7 +43,7 @@
 
 
 // include C-API header
-#include "sass/base.h"
+#include "base.h"
 
 // For C++ helper
 #include <string>

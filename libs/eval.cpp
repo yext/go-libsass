@@ -15,7 +15,7 @@
 #include "operators.hpp"
 #include "environment.hpp"
 #include "position.hpp"
-#include "sass/values.h"
+#include "values.h"
 #include "to_value.hpp"
 #include "to_c.hpp"
 #include "context.hpp"

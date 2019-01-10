@@ -5,7 +5,7 @@
 #include "position.hpp"
 #include "environment.hpp"
 #include "ast_fwd_decl.hpp"
-#include "sass/functions.h"
+#include "functions.h"
 
 #define BUILT_IN(name) Expression_Ptr \
 name(Env& env, Env& d_env, Context& ctx, Signature sig, ParserState pstate, Backtraces traces, std::vector<Selector_List_Obj> selector_stack)

@@ -5,7 +5,7 @@
 #include "lexer.hpp"
 #include "prelexer.hpp"
 #include "constants.hpp"
-#include "utf8/checked.h"
+#include "checked.h"
 
 #include <cmath>
 #include <stdint.h>

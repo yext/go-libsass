@@ -3,7 +3,7 @@
 
 #include "ast_fwd_decl.hpp"
 #include "operation.hpp"
-#include "sass/values.h"
+#include "values.h"
 
 namespace Sass {
 
